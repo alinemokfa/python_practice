@@ -7,3 +7,11 @@ print(len(list))
 print(list[4])
 
 print(list + list2)
+
+print(list3[2][1])
+
+print(list2)
+
+# remove function removes the first occurence of a value (not index)
+# if you know the index, use del
+del(list[1])
